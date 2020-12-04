@@ -11,3 +11,16 @@ F:\MyProgram\Git\PrincessPelper\PrincessHelper\PrincessHelper\obj\Debug\Princess
 F:\MyProgram\Git\PrincessPelper\PrincessHelper\PrincessHelper\bin\Debug\Newtonsoft.Json.dll
 F:\MyProgram\Git\PrincessPelper\PrincessHelper\PrincessHelper\bin\Debug\Newtonsoft.Json.xml
 F:\MyProgram\Git\PrincessPelper\PrincessHelper\PrincessHelper\obj\Debug\PrincessHelper.csproj.CopyComplete
+D:\MyProgram\PrincessHelper\PrincessHelper\bin\Debug\PrincessHelper.exe.config
+D:\MyProgram\PrincessHelper\PrincessHelper\bin\Debug\PrincessHelper.exe
+D:\MyProgram\PrincessHelper\PrincessHelper\bin\Debug\PrincessHelper.pdb
+D:\MyProgram\PrincessHelper\PrincessHelper\bin\Debug\Newtonsoft.Json.dll
+D:\MyProgram\PrincessHelper\PrincessHelper\bin\Debug\Newtonsoft.Json.xml
+D:\MyProgram\PrincessHelper\PrincessHelper\obj\Debug\PrincessHelper.csprojAssemblyReference.cache
+D:\MyProgram\PrincessHelper\PrincessHelper\obj\Debug\PrincessHelper.PrincessHelper.resources
+D:\MyProgram\PrincessHelper\PrincessHelper\obj\Debug\PrincessHelper.Properties.Resources.resources
+D:\MyProgram\PrincessHelper\PrincessHelper\obj\Debug\PrincessHelper.csproj.GenerateResource.cache
+D:\MyProgram\PrincessHelper\PrincessHelper\obj\Debug\PrincessHelper.csproj.CoreCompileInputs.cache
+D:\MyProgram\PrincessHelper\PrincessHelper\obj\Debug\PrincessHelper.csproj.CopyComplete
+D:\MyProgram\PrincessHelper\PrincessHelper\obj\Debug\PrincessHelper.exe
+D:\MyProgram\PrincessHelper\PrincessHelper\obj\Debug\PrincessHelper.pdb
