@@ -16,8 +16,8 @@ namespace PrincessHelper
         }
 
         DateTime StartTime = new DateTime(2020,8,25);
-        DateTime HourStartTime = new DateTime(2020,11,30,1,0,0);
-        DateTime URStartTime = new DateTime(2020,11,26);
+        DateTime HourStartTime = new DateTime(2020,12,23,14,0,0);
+        DateTime URStartTime = new DateTime(2020,12,12);
         private void Search_btn_ClickAsync(object sender, EventArgs e)
         {
             DateTime SelectDate = DateTime.Parse(dateTimePicker1.Text);
@@ -70,9 +70,14 @@ namespace PrincessHelper
                 string json = sr.ReadToEnd();
                 //R_Rolls = JsonConvert.DeserializeObject<List<Rolls>>(Rjson);
                 string[] Rolls = JsonConvert.DeserializeObject<string[]>(json);
+                DateTime SelectDate = DateTime.Parse(dateTimePicker1.Text);
+                
                 for (int i = 1; i <= 24; i++)
                 {
-                    ShowResult_txt.Text = string.Format("{0}\r\n{1}:00\t{2}", ShowResult_txt.Text, i, Rolls[(diffhours + i) % Rolls.Length]);                    
+                    if (i == DateTime.Now.Hour) {
+                        Hour_Role_txt.Text = string.Format("{0}:00\t{1}", i, Rolls[(diffhours + i) % Rolls.Length]);
+                    }
+                    ShowResult_txt.Text = string.Format("{0}\r\n{1}:00\t{2}", ShowResult_txt.Text, i, Rolls[(diffhours + i) % Rolls.Length]);
                 }
             }
         }

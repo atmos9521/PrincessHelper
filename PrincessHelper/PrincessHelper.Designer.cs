@@ -34,6 +34,8 @@
             this.Input_btn = new System.Windows.Forms.Button();
             this.NewMember_txt = new System.Windows.Forms.TextBox();
             this.NewMember_lbl = new System.Windows.Forms.Label();
+            this.Hour_Role_txt = new System.Windows.Forms.TextBox();
+            this.Hour_Role_lbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Search_btn
@@ -48,17 +50,23 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("微軟正黑體", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.dateTimePicker1.Location = new System.Drawing.Point(12, 12);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 25);
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 31);
             this.dateTimePicker1.TabIndex = 1;
             // 
             // ShowResult_txt
             // 
+            this.ShowResult_txt.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ShowResult_txt.Font = new System.Drawing.Font("微軟正黑體", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.ShowResult_txt.Location = new System.Drawing.Point(237, 12);
             this.ShowResult_txt.Multiline = true;
             this.ShowResult_txt.Name = "ShowResult_txt";
-            this.ShowResult_txt.Size = new System.Drawing.Size(316, 426);
+            this.ShowResult_txt.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.ShowResult_txt.Size = new System.Drawing.Size(317, 289);
             this.ShowResult_txt.TabIndex = 2;
             // 
             // Input_btn
@@ -73,7 +81,7 @@
             // 
             // NewMember_txt
             // 
-            this.NewMember_txt.Location = new System.Drawing.Point(12, 206);
+            this.NewMember_txt.Location = new System.Drawing.Point(12, 219);
             this.NewMember_txt.Name = "NewMember_txt";
             this.NewMember_txt.Size = new System.Drawing.Size(200, 25);
             this.NewMember_txt.TabIndex = 4;
@@ -81,17 +89,36 @@
             // NewMember_lbl
             // 
             this.NewMember_lbl.AutoSize = true;
-            this.NewMember_lbl.Location = new System.Drawing.Point(12, 175);
+            this.NewMember_lbl.Location = new System.Drawing.Point(12, 201);
             this.NewMember_lbl.Name = "NewMember_lbl";
             this.NewMember_lbl.Size = new System.Drawing.Size(56, 15);
             this.NewMember_lbl.TabIndex = 5;
             this.NewMember_lbl.Text = "新成員:";
             // 
+            // Hour_Role_txt
+            // 
+            this.Hour_Role_txt.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Hour_Role_txt.Location = new System.Drawing.Point(12, 136);
+            this.Hour_Role_txt.Name = "Hour_Role_txt";
+            this.Hour_Role_txt.Size = new System.Drawing.Size(200, 30);
+            this.Hour_Role_txt.TabIndex = 6;
+            // 
+            // Hour_Role_lbl
+            // 
+            this.Hour_Role_lbl.AutoSize = true;
+            this.Hour_Role_lbl.Location = new System.Drawing.Point(12, 114);
+            this.Hour_Role_lbl.Name = "Hour_Role_lbl";
+            this.Hour_Role_lbl.Size = new System.Drawing.Size(101, 15);
+            this.Hour_Role_lbl.TabIndex = 7;
+            this.Hour_Role_lbl.Text = "現在現實精靈:";
+            // 
             // PrincessHelper
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(574, 444);
+            this.ClientSize = new System.Drawing.Size(575, 307);
+            this.Controls.Add(this.Hour_Role_lbl);
+            this.Controls.Add(this.Hour_Role_txt);
             this.Controls.Add(this.NewMember_lbl);
             this.Controls.Add(this.NewMember_txt);
             this.Controls.Add(this.Input_btn);
@@ -114,6 +141,8 @@
         private System.Windows.Forms.Button Input_btn;
         private System.Windows.Forms.TextBox NewMember_txt;
         private System.Windows.Forms.Label NewMember_lbl;
+        private System.Windows.Forms.TextBox Hour_Role_txt;
+        private System.Windows.Forms.Label Hour_Role_lbl;
     }
 }
 
