@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PrincessHelper));
             this.Search_btn = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.ShowResult_txt = new System.Windows.Forms.TextBox();
@@ -36,6 +38,7 @@
             this.NewMember_lbl = new System.Windows.Forms.Label();
             this.Hour_Role_txt = new System.Windows.Forms.TextBox();
             this.Hour_Role_lbl = new System.Windows.Forms.Label();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.SuspendLayout();
             // 
             // Search_btn
@@ -112,6 +115,13 @@
             this.Hour_Role_lbl.TabIndex = 7;
             this.Hour_Role_lbl.Text = "現在現實精靈:";
             // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "騎士公主";
+            this.notifyIcon1.Visible = true;
+            this.notifyIcon1.DoubleClick += new System.EventHandler(this.notifyIcon1_DoubleClick);
+            // 
             // PrincessHelper
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -128,6 +138,7 @@
             this.Name = "PrincessHelper";
             this.Text = "PrincessHelper";
             this.TopMost = true;
+            this.Resize += new System.EventHandler(this.PrincessHelper_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -143,6 +154,7 @@
         private System.Windows.Forms.Label NewMember_lbl;
         private System.Windows.Forms.TextBox Hour_Role_txt;
         private System.Windows.Forms.Label Hour_Role_lbl;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 

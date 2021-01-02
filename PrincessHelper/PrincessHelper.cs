@@ -102,5 +102,20 @@ namespace PrincessHelper
 
             //string jsonString = JsonSerializer.Serialize(NewMember_txt.Text);
         }
+
+        private void PrincessHelper_Resize(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                this.Hide();
+            }
+        }
+
+        private void notifyIcon1_DoubleClick(object sender, EventArgs e)
+        {
+            //讓Form再度顯示，並寫狀態設為Normal
+            this.Show();
+            this.WindowState = FormWindowState.Normal;
+        }
     }
 }
