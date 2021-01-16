@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataFormet\RollData.cs" />
     <Compile Include="json\Rolls.cs" />
     <Compile Include="PrincessHelper.cs">
       <SubType>Form</SubType>

@@ -58,6 +58,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 31);
             this.dateTimePicker1.TabIndex = 1;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // ShowResult_txt
             // 
@@ -88,6 +89,7 @@
             this.NewMember_txt.Name = "NewMember_txt";
             this.NewMember_txt.Size = new System.Drawing.Size(200, 25);
             this.NewMember_txt.TabIndex = 4;
+            this.NewMember_txt.Text = "尤克特拉希爾";
             // 
             // NewMember_lbl
             // 
